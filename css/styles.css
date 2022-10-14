@@ -1,20 +1,25 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: cadetblue;
+  background-color: hwb(180 71% 24% / 0.876);
+  background: url("img/img1.jpeg"), url("img/img11.jpeg");
+  background-position: left, right;
+  background-repeat: no-repeat, repeat;
+  background-size: 40%;
 }
 
 .container {
   margin: 5%;
-  margin-top: 10%;
   border-style: solid;
   border-width: 3px;
   border-color:aquamarine;
+  size: 80%;
 }
 
 .top-tabs {
   padding: 2%;
   margin-top: 4%;
-  background-color:#b7babbe4;
+  background-color: aquamarine;
+  opacity: 70%;
   
 }
 
@@ -27,6 +32,7 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
   font-size:inherit;
+  opacity: 100%;
 }
 
 .top-tabs a {
@@ -34,11 +40,13 @@ body {
 }
 
 .sub {
-  background-color:crimson;
+  background-color: crimson;
+  opacity: 30%;
   height: 400px;
 }
 
 .sub-sub {
   background-color: blue;
+  opacity: 30%;
   height: 500px;
 }
