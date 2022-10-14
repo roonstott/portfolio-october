@@ -1,10 +1,82 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: hwb(180 71% 24% / 0.876);
-  background: url("img/img1.jpeg"), url("img/img11.jpeg");
-  background-position: left, right;
-  background-repeat: no-repeat, repeat;
+  background-image: url("img/img5.jpeg");
+}
+
+.bg1 {
+  background-image: url("img/img11.jpeg");
   background-size: 40%;
+  background-position: right;
+  background-repeat: repeat;
+}
+
+.bg2 {
+  background-image: url("img/img1.jpeg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  opacity: 100%;
+}
+
+.bg3 {
+  background-image: url("img/img10.jpeg");
+  background-size: 40%;
+  background-position: right;
+  background-repeat: repeat;
+}
+
+.bg4 {
+  background-image: url("img/img9.jpeg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  opacity: 100%;
+}
+
+.bg5 {
+  background-image: url("img/img4.jpeg");
+  background-size: 40%;
+  background-position: right;
+  background-repeat: repeat;
+}
+
+.bg6 {
+  background-image: url("img/img11.jpeg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  opacity: 100%;
+}
+
+.bg7 {
+  background-image: url("img/img5.jpeg");
+  background-size: 40%;
+  background-position: right;
+  background-repeat: repeat;
+}
+
+.bg8 {
+  background-image: url("img/img2.jpeg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  opacity: 100%;
+}
+
+.bg9 {
+  background-image: url("img/img3.jpeg");
+  background-size: 40%;
+  background-position: right;
+  background-repeat: repeat;
+}
+
+.bg10 {
+  background-image: url("img/img8.jpeg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  opacity: 100%;
 }
 
 .container {
@@ -19,20 +91,19 @@ body {
   padding: 2%;
   margin-top: 4%;
   background-color: aquamarine;
-  opacity: 70%;
-  
+  opacity: 90%;
 }
 
 .top-tabs p {
-  border-width: 1px;
+  border-width: 2px;
   border-color: black;
   text-align: center;
   border-style: solid;
   background-color: #73798a71;
+  margin-top: 5%;
   padding-top: 3px;
   padding-bottom: 3px;
-  font-size:inherit;
-  opacity: 100%;
+  font-size: 15px;
 }
 
 .top-tabs a {
@@ -41,12 +112,12 @@ body {
 
 .sub {
   background-color: crimson;
-  opacity: 30%;
+  opacity: 20%;
   height: 400px;
 }
 
 .sub-sub {
   background-color: blue;
-  opacity: 30%;
+  opacity: 20%;
   height: 500px;
 }
