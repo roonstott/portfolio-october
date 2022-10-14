@@ -1,6 +1,20 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: cadetblue;
+}
+
+.container {
+  margin: 5%;
+  margin-top: 10%;
+  border-style: solid;
+  border-width: 3px;
+  border-color:aquamarine;
+}
+
 .top-tabs {
-  padding: 4%;
+  padding: 2%;
   margin-top: 4%;
+  background-color:#b7babbe4;
   
 }
 
@@ -9,13 +23,22 @@
   border-color: black;
   text-align: center;
   border-style: solid;
-  background-color: bisque;
+  background-color: #73798a71;
   padding-top: 3px;
   padding-bottom: 3px;
   font-size:inherit;
 }
 
-#empty {
-  border-width: 0px;
-  background-color: white;
+.top-tabs a {
+  color: white;
+}
+
+.sub {
+  background-color:crimson;
+  height: 400px;
+}
+
+.sub-sub {
+  background-color: blue;
+  height: 500px;
 }
