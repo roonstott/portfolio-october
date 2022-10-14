@@ -1,0 +1,21 @@
+.top-tabs {
+  padding: 4%;
+  margin-top: 4%;
+  
+}
+
+.top-tabs p {
+  border-width: 1px;
+  border-color: black;
+  text-align: center;
+  border-style: solid;
+  background-color: bisque;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size:inherit;
+}
+
+#empty {
+  border-width: 0px;
+  background-color: white;
+}
