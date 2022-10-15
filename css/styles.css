@@ -124,6 +124,10 @@ body {
   margin-top: 15%;
 }
 
+.sub .text {
+  color: bisque;
+}
+
 .sub h1 {
   text-align: center;
   margin-left: 20%;
@@ -132,9 +136,21 @@ body {
   font-size: 40px;
 }
 
+.sub .history {
+  color: red;
+  font-size: 50px;
+}
+
 .sub li {
   font-size: 22px;
   color: white;
+}
+
+img {
+  display: block;
+  width: 70%;
+  height: auto;
+  float: left;
 }
 
 .sub a {
